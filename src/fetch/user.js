@@ -2,7 +2,7 @@ import instance from './main';
 
 export const login = (params) => {
     return instance({
-        url: "/api/blog/account/login",
+        url: "/auee/api/account/login",
         method: 'post',
         data: params
     });
@@ -10,7 +10,7 @@ export const login = (params) => {
 
 export const register = (params) => {
     return instance({
-        url: "/api/blog/account/register",
+        url: "/auee/api/account/register",
         method: 'post',
         data: params
     });
@@ -18,16 +18,16 @@ export const register = (params) => {
 
 export const getUserById = (params) => {
     return instance({
-        url: "/api/blog/account/getUserById",
+        url: "/auee/api/account/getUserById",
         method: 'post',
         data: params
     });
-}
+};
 
 // getUsers
 export const getUsers = (params) => {
     return instance({
-        url: "/api/blog/account/getUsers",
+        url: "/auee/api/account/getUsers",
         method: 'post',
         data: params
     });
@@ -35,21 +35,20 @@ export const getUsers = (params) => {
 
 export const updateUser = (params) => {
     return instance({
-        url: "/api/blog/account/updateUser",
+        url: "/auee/api/account/updateUser",
         method: 'post',
         data: params
     });
 };
 
 export const deleteUser = () => {
-    
-}
+
+};
 
 export const getUserIdentity = (params) => {
     return instance({
-        url: "/api/blog/account/getUserIdentity",
+        url: "/auee/api/account/getUserIdentity",
         method: 'post',
         data: params
     });
 };
-

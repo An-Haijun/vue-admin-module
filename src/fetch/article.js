@@ -2,7 +2,7 @@ import instance from './main';
 
 export const createArticle = (params) => {
     return instance({
-        url: "/api/blog/article/create",
+        url: "/auee/api/article/create",
         method: 'post',
         data: params
     });
@@ -10,7 +10,7 @@ export const createArticle = (params) => {
 
 export const deleteArticleById = (params) => {
     return instance({
-        url: "/api/blog/article/deleteArticleById",
+        url: "/auee/api/article/deleteArticleById",
         method: 'post',
         data: params
     });
@@ -18,7 +18,7 @@ export const deleteArticleById = (params) => {
 
 export const updateArticle = (params) => {
     return instance({
-        url: "/api/blog/article/updateArticle",
+        url: "/auee/api/article/updateArticle",
         method: 'post',
         data: params
     });
@@ -26,7 +26,7 @@ export const updateArticle = (params) => {
 
 export const getArticleById = (params) => {
     return instance({
-        url: "/api/blog/article/getArticleById",
+        url: "/auee/api/article/getArticleById",
         method: 'post',
         data: params
     });
@@ -34,7 +34,7 @@ export const getArticleById = (params) => {
 
 export const getArticleByParams = (params) => {
     return instance({
-        url: "/api/blog/article/getArticleByParams",
+        url: "/auee/api/article/getArticleByParams",
         method: 'post',
         data: params
     });
@@ -42,7 +42,7 @@ export const getArticleByParams = (params) => {
 
 export const createArticleType = (params) => {
     return instance({
-        url: "/api/blog/article/createArticleType",
+        url: "/auee/api/article/createArticleType",
         method: 'post',
         data: params
     });
@@ -50,7 +50,7 @@ export const createArticleType = (params) => {
 
 export const deleteArticleType = (params) => {
     return instance({
-        url: "/api/blog/article/deleteArticleType",
+        url: "/auee/api/article/deleteArticleType",
         method: 'post',
         data: params
     });
@@ -58,7 +58,7 @@ export const deleteArticleType = (params) => {
 
 export const updateArticleType = (params) => {
     return instance({
-        url: "/api/blog/article/updateArticleType",
+        url: "/auee/api/article/updateArticleType",
         method: 'post',
         data: params
     });
@@ -66,14 +66,14 @@ export const updateArticleType = (params) => {
 
 export const getArticleType = (params) => {
     return instance({
-        url: "/api/blog/article/getArticleType",
+        url: "/auee/api/article/getArticleType",
         method: 'post',
         data: params
     });
 };
 export const createArticleClass = (params) => {
     return instance({
-        url: "/api/blog/article/createArticleClass",
+        url: "/auee/api/article/createArticleClass",
         method: 'post',
         data: params
     });
@@ -81,7 +81,7 @@ export const createArticleClass = (params) => {
 
 export const deleteArticleClass = (params) => {
     return instance({
-        url: "/api/blog/article/deleteArticleClass",
+        url: "/auee/api/article/deleteArticleClass",
         method: 'post',
         data: params
     });
@@ -89,7 +89,7 @@ export const deleteArticleClass = (params) => {
 
 export const updateArticleClass = (params) => {
     return instance({
-        url: "/api/blog/article/updateArticleClass",
+        url: "/auee/api/article/updateArticleClass",
         method: 'post',
         data: params
     });
@@ -97,10 +97,8 @@ export const updateArticleClass = (params) => {
 
 export const getArticleClass = (params) => {
     return instance({
-        url: "/api/blog/article/getArticleClass",
+        url: "/auee/api/article/getArticleClass",
         method: 'post',
         data: params
     });
 };
-
-

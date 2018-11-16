@@ -3,28 +3,31 @@
         <v-head></v-head>
         <v-sidebar></v-sidebar>
         <div class="content-box" ref="contentBox">
-            <div class="content">
-                <router-view></router-view>
-            </div>
+            <!-- <GeminiScrollbar class="my-scroll-bar"> -->
+            <router-view></router-view>
+            <!-- </GeminiScrollbar> -->
         </div>
     </div>
 </template>
 
 <script>
-    import vHead from './Header.vue';
-    import vSidebar from './Sidebar.vue';
-    import vTags from './Tags.vue';
-    export default {
-        data(){
-            return {
-                tagsList: [],
-            }
-        },
-        components:{
-            vHead, vSidebar, vTags
-        },
-        created(){
-            
-        }
-    }
+import vHead from "./Header.vue";
+import vSidebar from "./Sidebar.vue";
+export default {
+    data () {
+        return {
+            tagsList: []
+        };
+    },
+    components: {
+        vHead,
+        vSidebar
+    },
+    created () {}
+};
 </script>
+<style scoped>
+.my-scroll-bar {
+    height: 100%;
+}
+</style>

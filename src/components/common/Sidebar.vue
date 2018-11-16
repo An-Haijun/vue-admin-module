@@ -26,7 +26,7 @@
 
 <script>
 export default {
-    data() {
+    data () {
         return {
             collapse: false,
             items: [
@@ -37,26 +37,12 @@ export default {
                 },
                 {
                     icon: "el-icon-tickets",
-                    index: "7",
-                    title: "权限管理",
-                    subs: [
-                        {
-                            index: "",
-                            title: "用户权限"
-                        },
-                        {
-                            index: "",
-                            title: "管理员权限"
-                        },
-                        {
-                            index: "",
-                            title: "菜单树"
-                        }
-                    ]
+                    index: "SystemMonitoring",
+                    title: "运维监控"
                 },
                 {
                     icon: "el-icon-tickets",
-                    index: "10",
+                    index: "MenuModule",
                     title: "功能模板",
                     subs: [
                         {
@@ -78,6 +64,10 @@ export default {
                         {
                             index: "form",
                             title: "基本表单"
+                        },
+                        {
+                            index: "markdown",
+                            title: "markdown"
                         }
                     ]
                 }
@@ -85,11 +75,11 @@ export default {
         };
     },
     computed: {
-        onRoutes() {
+        onRoutes () {
             return this.$route.path.replace("/", "");
         }
     },
-    created() {
+    created () {
 
     }
 };

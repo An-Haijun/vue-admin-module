@@ -8,7 +8,7 @@ let instance = axios.create({
     baseURL: process.env.BASE_API,
     timeout: 300000,
     headers: {
-        'X-Custom-Header': 'foobar',
+        'X-Custom-Header': 'foobar'
     }
 });
 
@@ -35,7 +35,7 @@ instance.interceptors.response.use((response) => {
         localStorage.removeItem("userInfo");
         // ElementUI.Message.error(resolve.row.error_msg);
         router.push({
-            path: "/login",
+            path: "/login"
         });
 
         // return null;
