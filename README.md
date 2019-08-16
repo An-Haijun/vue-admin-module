@@ -10,6 +10,9 @@
 - 基于vue的图片裁剪上传功能：vue-cropperjs
 - 弥补babel不处理最新api的缺失，让开发更好地使用es6：babel-polyfill
 - 修改默认滚动条样式：npm i vue-gemini-scrollbar --save
+
+### 测试
+
 ## Build Setup
 
 ``` bash
